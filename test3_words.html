@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <style type="text/css">
+    body{
+        background: linear-gradient(to right, #3a6186, #89253e); 
+    }
+    
+    
+    .btn {
+        -webkit-transition: 0.2s all ease;
+        transition: 0.2s all ease;
+        padding: 20px 30px;
+        margin-top: 205px;
+        border: 1px solid white;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        letter-spacing: 5px;
+        display: inline-block;
+    
+    }
+    
+    .btn:hover{
+        color: black;
+        background-color: white;
+    
+    }
+    
+    </style>
+    
+
+<body>
+    <br> 
+    <br> 
+    <br> 
+    <div align="center">
+    
+        <text style="color: white;font-size: 20px; font-family: 'Raleway', sans-serif;">
+            Start memorizing! :)</text> 
+    
+        </div>
+    
+
+<p style="color: white;font-size: 20px; font-family: 'Raleway', sans-serif; margin-left: 900px;">
+    Time left: <span id="countdown">10</span> seconds
+</p>
+  <!-- JavaScript part -->
+  <script type="text/javascript">
+      
+      // Total seconds to wait
+      var seconds = 10;
+      
+      function countdown() {
+          seconds = seconds - 1;
+          if (seconds < 0) {
+              // Chnage your redirection link here
+              window.location = "test3_form.html";
+          } else {
+              // Update remaining seconds
+              document.getElementById("countdown").innerHTML = seconds;
+              // Count down using javascript
+              window.setTimeout("countdown()", 1000);
+          }
+      }
+      
+      // Run countdown function
+      countdown();
+      
+  </script>
+      
+      <div align="center">
+          
+        <p style="color: white;font-size: 40px; font-family: 'Raleway', sans-serif;">
+
+        
+    
+            xx <br>
+            xx <br>
+            xx<br>
+            xx <br>
+            xx <br>
+            xx <br>
+            xx<br> 
+
+        </p>
+    </div>
+
+
+</body>
+   
+    
+</html>

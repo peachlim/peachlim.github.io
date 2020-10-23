@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <style type="text/css">
+    body{
+        background: linear-gradient(to right, #3a6186, #89253e); 
+    }
+    
+    
+    </style>
+    
+
+<body>
+    <br> 
+    <br> 
+    <br> 
+    <div align="center">
+    
+     
+    <audio id="music" autoplay controls loop>
+        <source src="Soledad.mp3" type="audio/mp3">
+        </audio>
+    <br>
+    
+        </div>
+        <text style="color: white;font-size: 20px; font-family: 'Raleway', sans-serif; margin-left: 502px;">
+            ^ Click me and start memorizing! :)</text> 
+
+<p style="color: white;font-size: 20px; font-family: 'Raleway', sans-serif; margin-left: 900px;">
+    Time left: <span id="countdown">10</span> seconds
+</p>
+  <!-- JavaScript part -->
+  <script type="text/javascript">
+      
+      // Total seconds to wait
+      var seconds = 10;
+      
+      function countdown() {
+          seconds = seconds - 1;
+          if (seconds < 0) {
+              // Chnage your redirection link here
+              window.location = "test1_form.html";
+          } else {
+              // Update remaining seconds
+              document.getElementById("countdown").innerHTML = seconds;
+              // Count down using javascript
+              window.setTimeout("countdown()", 1000);
+          }
+      }
+      
+      // Run countdown function
+      countdown();
+      
+  </script>
+      
+      <div align="center">
+          
+        <p style="color: white;font-size: 40px; font-family: 'Raleway', sans-serif;">
+        
+            xx <br>
+            xx <br>
+            xx<br>
+            xx <br>
+            xx <br>
+            xx <br>
+            xx<br> 
+
+        </p>
+    </div>
+
+
+</body>
+   
+    
+</html>
